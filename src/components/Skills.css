@@ -1,0 +1,195 @@
+/* .skills-container {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .skills-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .skill-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .skill-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .skill-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .skill-description {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skill-description li {
+    margin: 5px 0;
+  }
+  
+  .skill-actions button {
+    margin: 5px;
+  }
+  
+  .add-skill-container,
+  .edit-skill-container {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+  }
+  
+  .add-skill-container input,
+  .edit-skill-container input,
+  .add-skill-container textarea,
+  .edit-skill-container textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+   */
+   .skills-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .skills-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .password-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .password-section input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .password-section button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .skill-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skill-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .skill-actions {
+    margin-top: 10px;
+  }
+  
+  .skill-actions button {
+    margin: 0 5px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .skill-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-container {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+  }
+  
+  .form-container input,
+  .form-container textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .form-container button:hover {
+    background-color: #218838;
+  }
+  
+  .skills-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
